@@ -1,6 +1,6 @@
 # ctf-analyzer
 
-A lightweight Docker-based dynamic analysis tool for CTF binaries. Runs `strace` and `ltrace` inside an isolated container and surfaces the most useful findings — program output, files opened, string comparisons, and exec calls — without any noise from the host system.
+A lightweight Docker-based dynamic analysis tool for CTF binaries. Runs `strace` and `ltrace` inside an isolated container and surfaces the most useful findings such as program output, files opened, string comparisons, and exec calls. This was made because I don't want any noise from the host system.
 
 ---
 
@@ -96,7 +96,7 @@ Access granted!\n
 ══════════════════════════════════════════════
 ```
 
-The string comparison line instantly reveals what value the binary is comparing against — which in CTF challenges is often the flag or password.
+The string comparison line instantly reveals what value the binary is comparing against, which in CTF challenges is often the flag or password.
 
 ---
 
